@@ -1,0 +1,32 @@
+dev_directory : ../data/dev_data
+eval_directory : ../data/eval_data
+result_directory: ../result/result_sub1_2/result_dev
+figure_directory: ../result/result_sub1_2/fig_dev
+result_file: result.csv
+
+max_fpr : 0.1
+
+feature:
+  n_mels: 128
+  frames : 5
+  n_fft: 1024
+  hop_length: 512
+  power: 2.0
+
+model:
+  f : 20
+  decimate : True
+  am_model:
+    use : True
+    use_for_decimate : True
+  ab_model:
+    use : True
+    use_for_decimate : True
+    k : 5
+  al_model:
+    use : True
+    use_for_decimate : False
+  abl_model:
+    use : False
+    use_for_decimate : True
+
