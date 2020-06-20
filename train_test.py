@@ -104,9 +104,6 @@ def test_file_list_generator(target_dir,
     return files, labels
 ########################################################################
 
-# def calc_train_features(target_dir, id_str):
-#     test_file_list_generator
-
 
 if __name__ == "__main__":
     # check mode
