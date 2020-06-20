@@ -179,7 +179,6 @@ if __name__ == "__main__":
                 try:
                     train_X = com.file_to_vector_array(file_path,
                                                     n_mels=param["feature"]["n_mels"],
-                                                    frames=param["feature"]["frames"],
                                                     n_fft=param["feature"]["n_fft"],
                                                     hop_length=param["feature"]["hop_length"],
                                                     power=param["feature"]["power"])
@@ -202,7 +201,6 @@ if __name__ == "__main__":
                 try:
                     data = com.file_to_vector_array(file_path,
                                                     n_mels=param["feature"]["n_mels"],
-                                                    frames=param["feature"]["frames"],
                                                     n_fft=param["feature"]["n_fft"],
                                                     hop_length=param["feature"]["hop_length"],
                                                     power=param["feature"]["power"])

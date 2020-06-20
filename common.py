@@ -113,7 +113,6 @@ def file_load(wav_name, mono=False):
 ########################################################################
 def file_to_vector_array(file_name,
                          n_mels=64,
-                         frames=5,
                          n_fft=1024,
                          hop_length=512,
                          power=2.0):
